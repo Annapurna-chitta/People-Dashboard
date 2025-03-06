@@ -4,13 +4,12 @@ This Power BI dashboard provides a comprehensive view of workforce analytics, fo
 
 ## Metadata
 The database is obtained from Kaggle. https://www.kaggle.com/datasets/hopesb/hr-analytics-dataset. 
-Removed 2 columns Unnamed and exit reason(no proper response captured). 37 columns 
-Dataset divided into multiple Fact tables – Employee, Training, Survey, Performance, Job
-Employee Table: Email, DOB, Employee ID, Start date, Exit Date, First Names, Gender, Last Name, Location, Location code, Maritasl Desc, Race Desc, State
-Training: Employee ID, Training Date, Training Program Name, Training Type, Training Outcome, Trainer, Training Duration, Trainin Cost
-Survey: Empoyee Id, Survey Date, Engagement Score, Satisfaction Score, Work Life Balance Score
-Performance: Performance Score, Current Rating, Employee Id
-Job: Title, Supervisor, Business Unit, Status, Type, PayZone, Termination Type, Department Type, Division, Job Function Description, Employee ID
+Removed 2 columns Unnamed and exit reason(no proper response captured).Dataset containing 37 columns was further divided into multiple Fact tables – Employee, Training, Survey, Performance, Job
+* Employee Table: Email, DOB, Employee ID, Start date, Exit Date, First Names, Gender, Last Name, Location, Location code, Maritasl Desc, Race Desc, State
+* Training: Employee ID, Training Date, Training Program Name, Training Type, Training Outcome, Trainer, Training Duration, Trainin Cost
+* Survey: Empoyee Id, Survey Date, Engagement Score, Satisfaction Score, Work Life Balance Score
+* Performance: Performance Score, Current Rating, Employee Id
+* Job: Title, Supervisor, Business Unit, Status, Type, PayZone, Termination Type, Department Type, Division, Job Function Description, Employee ID
 Obtained relationships based on employee id in each table. 
 
 ## Key Features
